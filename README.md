@@ -21,24 +21,6 @@ This project implements a Deep Reinforcement Learning (DRL) approach for autonom
 - *Velodyne LiDAR*: Sensor simulation package
 - *RViz*: Visualization tool for robot state and sensor data
 
-## Project Structure
-
-
-DRL_robot_navigation_ros2/
-├── src/
-│   ├── td3/                  # Main project package
-│   │   ├── launch/           # Launch files
-│   │   ├── models/           # Robot models
-│   │   ├── scripts/          # Python implementation
-│   │   │   ├── train_velodyne_node.py   # Main training script
-│   │   │   ├── test_velodyne_node.py    # Testing script
-│   │   │   ├── replay_buffer.py         # Experience replay implementation
-│   │   │   └── point_cloud2.py          # LiDAR data processing
-│   │   ├── urdf/             # Robot description files
-│   │   └── worlds/           # Simulation world definitions
-│   └── velodyne_simulator/   # LiDAR simulation package
-├── pytorch_models/           # Saved neural network models
-└── results/                  # Training results and logs
 
 
 ### Prerequisites
